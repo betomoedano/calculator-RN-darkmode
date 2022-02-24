@@ -1,8 +1,10 @@
-import { useState, useContext, createContext } from 'react';
+import { useState, useContext,  } from 'react';
 import { StyleSheet, Switch, Text, View } from 'react-native';
 import Button from './src/components/Button';
+import { myColors } from './src/styles/Colors';
+import { ThemeContext } from './src/context/ThemeContext';
 
-const ThemeContext = createContext('light');
+
 
 export default function App() {
   const [theme, setTheme] = useState('light');
@@ -13,6 +15,8 @@ export default function App() {
           value={theme === 'dark'}
           onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
+        <Button title="1" isBlue onPress={() => alert('Hello')} />
+        <Button title="1" isGray onPress={() => alert('Hello')} />
         <Button title="1" onPress={() => alert('Hello')} />
       </View>
     </ThemeContext.Provider>
@@ -22,7 +26,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: myColors.light,
     alignItems: 'center',
     justifyContent: 'center',
   },
