@@ -7,5 +7,17 @@ export const Styles = StyleSheet.create({
         height: 100,
         backgroundColor: myColors.blue,
     },
+    btnBlue: {
+        width: 72,
+        height: 72,
+        borderRadius: 24,
+        backgroundColor: myColors.blue,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    smallText: {
+        fontSize: 32,
+        color: myColors.white,
+    }
 
 })

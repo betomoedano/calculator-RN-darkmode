@@ -9,7 +9,7 @@
 
 ### Tools
 - React Native Expo
-= Typescript
+- Typescript
 
 ### Want to clone this project?
 At the root folder run:
