@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 import { myColors } from "./Colors"; 
 
 export const Styles = StyleSheet.create({
+    // Button
     btnBlue: {
         width: 72,
         height: 72,
@@ -9,6 +10,7 @@ export const Styles = StyleSheet.create({
         backgroundColor: myColors.blue,
         justifyContent: "center",
         alignItems: "center",
+        margin: 8,
     },
     btnDark: {
         width: 72,
@@ -17,6 +19,7 @@ export const Styles = StyleSheet.create({
         backgroundColor: myColors.btnDark,
         justifyContent: "center",
         alignItems: "center",
+        margin: 8,
     },
     btnLight: {
         width: 72,
@@ -25,6 +28,7 @@ export const Styles = StyleSheet.create({
         backgroundColor: myColors.white,
         justifyContent: "center",
         alignItems: "center",
+        margin: 8,
     },
     btnGray: {
         width: 72,
@@ -33,6 +37,7 @@ export const Styles = StyleSheet.create({
         backgroundColor: myColors.btnGray,
         justifyContent: "center",
         alignItems: "center",
+        margin: 8,
     },
     smallTextLight: {
         fontSize: 32,
@@ -42,5 +47,9 @@ export const Styles = StyleSheet.create({
         fontSize: 32,
         color: myColors.black,
     },
-
+    // Keyboard
+    row: {
+        maxWidth: '100%',
+        flexDirection: "row",
+    }
 })

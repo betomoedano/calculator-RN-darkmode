@@ -3,6 +3,7 @@ import { StyleSheet, Switch, Text, View } from 'react-native';
 import Button from './src/components/Button';
 import { myColors } from './src/styles/Colors';
 import { ThemeContext } from './src/context/ThemeContext';
+import MyKeyboard from './src/components/MyKeyboard';
 
 
 
@@ -15,9 +16,7 @@ export default function App() {
           value={theme === 'dark'}
           onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
-        <Button title="1" isBlue onPress={() => alert('Hello')} />
-        <Button title="1" isGray onPress={() => alert('Hello')} />
-        <Button title="1" onPress={() => alert('Hello')} />
+        <MyKeyboard />
       </View>
     </ThemeContext.Provider>
   );
