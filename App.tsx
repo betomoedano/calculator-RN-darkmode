@@ -16,6 +16,8 @@ export default function App() {
           value={theme === 'dark'}
           onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
+        <Text style={{fontSize: 40, color: 'gray', fontWeight: '200', alignSelf: "flex-end"}}>1,345.0</Text>
+        <Text style={{fontSize: 96, color: 'gray', fontWeight: '200', alignSelf: "flex-end"}}>1,345.0</Text>
         <MyKeyboard />
       </View>
     </ThemeContext.Provider>
