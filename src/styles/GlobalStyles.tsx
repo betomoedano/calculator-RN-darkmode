@@ -51,5 +51,9 @@ export const Styles = StyleSheet.create({
     row: {
         maxWidth: '100%',
         flexDirection: "row",
-    }
+    },
+    viewBottom: {
+        position: 'absolute',
+        bottom: 50
+    },
 })

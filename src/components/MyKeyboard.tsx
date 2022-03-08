@@ -4,7 +4,7 @@ import { Styles } from "../styles/GlobalStyles";
 
 export default function MyKeyboard() {
     return (
-        <View>
+        <View style={Styles.viewBottom}>
             <View style={Styles.row}>
                 <Button title="C" isGray onPress={() => alert("Hello")} />
                 <Button title="+/-" isGray onPress={() => alert("Hello")} />
