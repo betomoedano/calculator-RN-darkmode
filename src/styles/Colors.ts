@@ -7,4 +7,5 @@ export const myColors = {
     gray: '#747477',
     black: '#000000',
     white: '#FFFFFF', 
+    result: '#46D5B2',
 }

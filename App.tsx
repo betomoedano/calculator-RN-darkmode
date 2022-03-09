@@ -3,7 +3,6 @@ import { SafeAreaView, StyleSheet, Switch, Text } from 'react-native';
 import { myColors } from './src/styles/Colors';
 import { ThemeContext } from './src/context/ThemeContext';
 import MyKeyboard from './src/components/MyKeyboard';
-import Screen from './src/components/Screen';
 
 
 
@@ -16,7 +15,6 @@ export default function App() {
           value={theme === 'dark'}
           onValueChange={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
-        <Screen />
         <MyKeyboard />
       </SafeAreaView>
     </ThemeContext.Provider>
