@@ -10,18 +10,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~44.0.0",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "expo": "^50.0.7",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.4",
+    "react-native-web": "~0.19.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react": "~17.0.21",
+    "@types/react": "~18.2.45",
     "@types/react-native": "~0.64.12",
-    "typescript": "~4.3.5"
+    "typescript": "^5.3.0"
   },
   "private": true
 }
